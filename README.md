@@ -30,3 +30,14 @@ Este paquete integra la pila de Navegación 2 (Nav2) con capacidades de Localiza
 1. Compile el paquete: `colcon build --packages-select my_nav2_slam_pkg`
 2. Cargue el entorno: `source ~/tfm_ws/install/setup.bash`
 3. Inicie la navegación con SLAM: `ros2 launch my_nav2_slam_pkg navigation_with_slam.launch.py`
+
+## Carpeta `Rendimiento`
+
+La carpeta `Rendimiento` reúne 10 capturas en total: 5 de Gazebo y 5 de O3DE.
+
+Cada archivo `.txt` guarda una captura puntual del estado del sistema durante una prueba, normalmente con información de procesos activos, carga de CPU y memoria disponible.
+
+- `Rendimiento/Gazebo/`: 5 capturas tomadas durante pruebas ejecutadas en Gazebo.
+- `Rendimiento/O3DE/`: 5 capturas tomadas durante pruebas ejecutadas en O3DE.
+
+Estos registros permiten comparar de forma directa cómo cambia el consumo de recursos entre ambas plataformas.

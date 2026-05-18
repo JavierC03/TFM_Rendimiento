@@ -14,8 +14,8 @@ def main():
         # Definir la pose objetivo
         goal_pose = PoseStamped()
         goal_pose.header.frame_id = 'map'
-        goal_pose.pose.position.x = 4.43
-        goal_pose.pose.position.y = -11.7
+        goal_pose.pose.position.x = -0.654
+        goal_pose.pose.position.y = -0.218
         goal_pose.pose.orientation.w = 1.0
 
         # Enviar el objetivo al robot
